@@ -12,6 +12,8 @@ The shift works similar to ROT13 with a randomly supplied shift value ranging fr
 - `-s, --shift` Manually specify a shift value
 If no arguement is provided, the script will prompt the user for code to obfuscate.
 
+![help image_vbscrambler](https://raw.githubusercontent.com/bobby-tablez/VBScrambler/main/assets/vbscrambler_help.png)
+
 ### Example:
 Obfuscating the following VBScript using the command: `python3 VBScrambler.py -s 5 -f ps.vbs`
 ```VBScript
