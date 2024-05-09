@@ -14,6 +14,11 @@ If no argument is provided, the script will prompt the user for code to obfuscat
 
 ![help image_vbscrambler](https://raw.githubusercontent.com/bobby-tablez/VBScrambler/main/assets/vbscrambler_help.png)
 
+### Installation
+Requires Python v3.8+
+Either download and execute VBScrambler.py file manually on Windows or Linux, or install and run via pypi package:
+`pip install VBScrambler` [PyPi Package](https://pypi.org/project/VBScrambler/)
+
 ### Example:
 Obfuscating the following VBScript using the command: `python3 VBScrambler.py -s 5 -f ps.vbs`
 ```VBScript
