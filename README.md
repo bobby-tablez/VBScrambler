@@ -30,6 +30,8 @@ lgwi = "":for i = 1 to 163: lgwi = lgwi + chr(Asc(mid("Inr%xmjqq1htrrfsihtrrfsi
 #### Errors and issues
 After extensively testing various VBScripts, I've discovered that certain scritps will produce errors with specific shift number combinations (typically 1 out of 10) when using the default provided range. If you encounter an error, try either adjusting the shfit number manually, or simply run it again to get a potentially new value. 
 
+Another issue occurs in Linux more often than in Windows where the console doesn't properly print the shifted ASCII characters properly, thus copying the printed code could skip some characters. If you run into this, use the `-o` option to print to a file and use a text editor such as Sublime which handles special characters well. 
+
 #### Future plans
 - Support for JScript, selectable via flags
 
