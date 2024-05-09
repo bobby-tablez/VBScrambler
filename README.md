@@ -27,6 +27,9 @@ Generates the following VBScript code:
 lgwi = "":for i = 1 to 163: lgwi = lgwi + chr(Asc(mid("Inr%xmjqq1htrrfsihtrrfsi%B%'ut|jwxmjqq3j}j%2stqtlt%2htrrfsi%''Sj|2Nyjr%H?ayj}ya{gxyjxy3y}y%2Ktwhj'''Xjy%xmjqq%B%HwjfyjTgojhy-'\Xhwnuy3Xmjqq'.xmjqq3Wzs%htrrfsi15",i,1)) - (5)):Next:Execute lgwi:
 ```
 
+#### Errors and issues
+After extensively testing various VBScripts, I've discovered that certain scritps will produce errors with specific shift number combinations (typically 1 out of 10) when using the default provided range. If you encounter an error, try either adjusting the shfit number manually, or simply run it again to get a potentially new value. 
+
 #### Future plans
 - Support for JScript, selectable via flags
 
