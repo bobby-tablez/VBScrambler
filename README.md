@@ -10,6 +10,7 @@ The shift works similar to ROT13 with a randomly supplied shift value ranging fr
 - `-f, --file` Supply a .vbs file to obfuscate (supports multi-line)
 - `-o, --output` Save generated output to file [filename.vbs]
 - `-s, --shift` Manually specify a shift value
+
 If no argument is provided, the script will prompt the user for code to obfuscate.
 
 ![help image_vbscrambler](https://raw.githubusercontent.com/bobby-tablez/VBScrambler/main/assets/vbscrambler_help.png)
