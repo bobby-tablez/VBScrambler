@@ -14,6 +14,7 @@ ____   ______________   _________                               ___.    .__
 
 """
 print(banner)
+
 def main():
 
     parser = argparse.ArgumentParser(description="VBScrambler")
