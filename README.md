@@ -1,6 +1,9 @@
 # VBScrambler - A Python-Based VBScript Code Obfuscator
 ![header image_vbscrambler](https://raw.githubusercontent.com/bobby-tablez/VBScrambler/main/assets/vbscrambler_header.png) 
 
+[![PyPI Version](https://img.shields.io/pypi/v/VBScrambler)](https://pypi.org/project/VBScrambler/)
+[![PyPI Downloads](https://static.pepy.tech/badge/vbscrambler)](https://pepy.tech/projects/vbscrambler)
+
 VBScrambler is a Python based VBScript code obfuscator which essentially takes VBScript as a form of input, either file or inline code, and provides an obfuscated VBScript one liner as output. The obfuscation works by taking the original VBScript, performing a byte shift on the supplied code. It will then take the garbage-looking code and insert it into a randomly generated deobfuscation script in VB, which will reverse the byte shift and then execute its contents. 
 
 The shift works similar to ROT13 with a randomly supplied shift value ranging from -5 to 7. Larger numbers tend to prevent the generated script from executing, producing errors. Other errors can occur when copying generated code from console, as special characters, especially in Linux, may not copy correctly. 
@@ -20,8 +23,6 @@ Requires Python v3.8+
 Either download and execute VBScrambler.py file manually on Windows or Linux, or install and run via pypi package:
 
 `pip install VBScrambler` 
- [![PyPI Version](https://img.shields.io/pypi/v/VBScrambler)](https://pypi.org/project/VBScrambler/)
-
 
 ### Example:
 Obfuscating the following VBScript using the command: `python3 VBScrambler.py -s 5 -f ps.vbs`
